@@ -7,9 +7,22 @@
 </head>
 <body>
     <h1>Hello World! from Student Manning!</h1>
+        <p id="result"> see result here! </p>
+    
     <p>published from the assignment 
         <a href="https://classroom.github.com/a/pYRYiWvu">github assignment</a>
     </p>
+
+
+    <script>
+        // Import an "add" function
+       import { add } from './mathmodule.js';
+       let result = add(2, 3);
+
+       // display result
+        elResult = document.getElementById("result");
+        elResult.innerHTML = "2 + 3 = " + result;
+    </script>
 </body>
 </body>
 </html>
